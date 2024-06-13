@@ -89,6 +89,12 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    fontFamily: {
+      HeavyUniSans: "Heavy-uni-sans",
+      ItalicHeavyUniSans: "ItalicHeavy-uni-sans",
+      ThinUniSans: "Thin-uni-sans",
+      ItalicThinUniSans: "italicThin-uni-sans"
+    }
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config
