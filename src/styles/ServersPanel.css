@@ -1,0 +1,25 @@
+:root {
+    --offset: 4px;
+}
+
+.ServersPanel {
+    position: relative;
+}
+
+.ServerActivityStatus {
+    position: absolute;
+
+    top: var(--offset);
+    right: var(--offset);
+}
+
+.ServerPingsCount {
+    position: absolute;
+
+    bottom: var(--offset);
+    right: var(--offset);
+}
+
+.AvatarDecoration{
+    fill: palevioletred;
+}
